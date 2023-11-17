@@ -16,10 +16,7 @@ app = Celery(
 
 @app.task(bind=True)
 def start_processing(self):
-    # Let's simulate a long-running task here. By long-running we are
-    # talking even tasks that take just a minute even. Let's pretend to
-    # read a file that takes 1 minute to be read, and it contains just
-    # a "Hello World"
+    # Let's simulate a long-running task here.
     logger.info("Reading a book :|")
     with open("assets/data.txt", "r") as file:
         result = file.read()
