@@ -19,4 +19,4 @@ Trigger the start of a text file processing task (20 seconds).
 
 Check the progress of the task with the specified ID and fetch the results if the task is complete.
 
-    POST /check_progress/{task_id}
+    GET /check_progress/{task_id}

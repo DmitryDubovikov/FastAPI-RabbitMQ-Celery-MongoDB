@@ -30,7 +30,7 @@ async def process_text_file():
         return {"status": "FAILURE", "id": None, "error": e}
 
 
-@app.post("/check_progress/{task_id}")
+@app.get("/check_progress/{task_id}")
 async def check_async_progress(task_id: str):
     """
     Endpoint to check the task progress and fetch the results if the task is
