@@ -1,6 +1,6 @@
 # FastAPI-RabbitMQ-Celery-MongoDB
 
-The application's architecture leverages FastAPI for creating robust APIs, RabbitMQ for message queuing, Celery for distributed task execution, and MongoDB for storing task results. 
+The application's architecture leverages FastAPI for creating API, RabbitMQ for message queuing, Celery for distributed task execution, and MongoDB for storing task results. 
 
 ## To run:
 
