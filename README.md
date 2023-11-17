@@ -13,7 +13,7 @@ docker compose up
 
 http://localhost:8000/docs
 
-Trigger the start of a text file processing task.
+Trigger the start of a text file processing task (20 seconds).
 
     POST /process
 
